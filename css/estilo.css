@@ -1,0 +1,57 @@
+body{
+    background-color:rgb(34, 40, 49);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.navegacao{
+    overflow:hidden; /*ajusta o texto no box e esconde as barras de rolagem*/
+}
+.navegacao a{
+    float:right;
+    display: block;
+    color: rgb(238, 238, 238)    ;
+    text-decoration: none;
+    text-align:right;
+    padding:10px 10px;
+}
+.navegacao a:hover{
+    color:rgb(0, 173, 181);
+    background-color: black;
+}
+h2{
+    background-color: rgb(0, 173, 181);
+    color:rgb(238, 238, 238);
+    text-decoration:dashed;
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px; 
+}
+.primeiro{
+    color:#40514E;
+    font-size:xx-large;
+    text-align: justify;
+    background-color: #E4F9F5;
+    border: 2px solid black;
+    height: 200px;
+    width: 100%;
+    border-bottom: 20px;
+    text-align:start;
+    padding: 20px 15px 50px;
+    box-shadow:4px 4px 4px black;
+    margin: 20px ;
+}
+.segundo{
+    color:#40514E;
+    font-size:xx-large;
+    background-color: #E4F9F5;
+    border: 2px solid black;
+    height: 200px;
+    width: 100%;
+    text-align:start;
+    padding: 20px 15px 50px;
+    box-shadow:4px 4px 4px black;
+    margin: 20px ;
+}
